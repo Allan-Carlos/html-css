@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.body_principal {
+    background-color: rgb(34, 33, 33);
+    border: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo_principal {
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container_videos {
+    text-align: center;
+}
+
+/* Python */
+
+.body_python {
+    background-color: rgb(34, 33, 33);
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo_principal_python {
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.video_python {
+    display: block;
+    margin: auto;
+}
+
+.paragrafo_python a:link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo_python a:visited {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar_python {
+    display: flex;
+    justify-content: center;
+}
+
+/* JavaScript */
+
+.body_javascript {
+    padding: 5px;
+    background-color: rgb(34, 33, 33);
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo_principal_javascript {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.video_javascript {
+    margin: auto;
+    display: block;
+}
+
+.paragrafo_javascript a:link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paragrafo_javascript a:visited {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar_javascript {
+    display: flex;
+    justify-content: center;
+}
+
+/* HTML */
+
+.body_html {
+    background-color: rgb(34, 33, 33);
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo_principal_html {
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.video_html {
+    margin: auto;
+    display: block;
+}
+
+.paragrafo_html a:link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;    
+}
+
+.paragrafo_html a:visited {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar_html {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hardware */
+
+.body_hardware {
+    background-color: rgb(34, 33, 33);
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo_principal_hardware {
+    margin: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.video_hardware {
+    margin: auto;
+    display: block;
+}
+
+.paragrafo_hardware a:link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paragrafo_hardware a:visited {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar_hardware {
+    display: flex;
+    justify-content: center;
+}

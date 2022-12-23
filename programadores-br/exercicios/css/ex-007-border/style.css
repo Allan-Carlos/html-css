@@ -1,0 +1,23 @@
+#primeira {
+    height: 100px;
+    /* background-color: blue; */
+}
+
+#segunda {
+    height: 100px;
+    width: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+#terceira {
+    height: 100px;
+    /* background-color: green; */
+}
+
+p {
+    border: 3px solid green;
+}

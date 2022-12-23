@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-style: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.exemple {
+    color: white;
+    text-align-last: justify;
+}
+
+.exemple::after {
+    display: inline-block;
+    width: 100%;
+}
+
+.exemple-item {
+    width: 30%;
+    height: 150px;
+    display: inline-block;
+}
+
+.exemple-item-firts {
+    background-color: #FAA116;
+}
+
+.exemple-item-second {
+    background-color: #57C7C3;
+}
+
+.exemple-item-third {
+    background-color: #3b97d3;
+}

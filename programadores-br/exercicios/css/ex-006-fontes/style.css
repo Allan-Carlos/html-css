@@ -1,0 +1,18 @@
+h1 {
+    font-family: "Comic Sans MS";
+}
+
+h2, h3 { 
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 1000;
+    font-variant: small-caps;
+}

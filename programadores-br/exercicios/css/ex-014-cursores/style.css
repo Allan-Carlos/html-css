@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: auto;
+    padding: 30px;
+    width: 46%;
+    background-color: rgb(184, 184, 184);
+}
+
+li {
+    background-color: #cceaff;
+    border: 1px solid #5ca8ef;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+ol {
+    padding: 30px;
+    list-style: upper-alpha;
+}
+
+h1 {
+    text-align: center;
+}

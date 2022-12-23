@@ -1,0 +1,26 @@
+#azul {
+    width: 50vh;
+    height: 300px;
+    background-color: blue;
+}
+
+#vermelha {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.foto {
+    width: 50%;
+}
+
+
+/*
+#container {
+    background-image: url('images/paisagem.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+*/

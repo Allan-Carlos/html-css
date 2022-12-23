@@ -1,0 +1,31 @@
+body {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    background-color: chocolate;
+
+}  
+
+
+/* img {
+    float: left;
+}
+
+p {
+    clear: none;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #3a9b21;
+    overflow: auto;
+} */

@@ -1,0 +1,15 @@
+div {
+    width: 500px;
+    height: 300px;
+    /* background-color: rgb(240, 100, 00);
+    background-image: url('images/Fundo_abstrato.jpg'); */
+    background: rgb(240, 100, 00) url('images/Fundo_abstrato.jpg');
+    background-size: cover;
+}
+
+p {
+    width: 300px;
+    background-color: aquamarine;
+    background-image: url('images/Fundo_abstrato.jpg');
+    background-attachment: fixed;
+}

@@ -1,0 +1,4 @@
+.verde {
+    height: 100px;
+    background: linear-gradient(to right ,red, 30%, green 50%, blue);
+}

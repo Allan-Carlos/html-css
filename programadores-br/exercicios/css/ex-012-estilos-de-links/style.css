@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+
+a {
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: beige;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#inicial {
+    width: 240px;
+    margin-left: auto;
+    display: inline;
+}
+
+.insta:hover {
+    background: radial-gradient(circle at 1% 110%, #fdf497 0%, #fdf497 5%, #fd5949 30%,#d6249f 60%,#285AEB 90%);
+}
+
+.github:hover {
+    background: linear-gradient(to right, rgba(61, 61, 61, 0.205), rgb(53, 53, 53));
+}
+
+.site:hover {
+    background: linear-gradient(to right, rgba(61, 61, 61, 0.205), rgb(0, 255, 34));
+}

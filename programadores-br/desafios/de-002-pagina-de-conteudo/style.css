@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+h1, h2 {
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+
+.container {
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.head-line {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.sub-title {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+.content {
+    max-width: 648px;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.cta {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+figure {
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+figure > img {
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    height: 100px;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+ul {
+    list-style: none;
+}

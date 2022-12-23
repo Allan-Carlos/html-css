@@ -1,0 +1,14 @@
+p {
+    color: green;
+    background-color: yellow;
+}
+
+#paragrafo1 {
+    color: red;
+    /* background-color: transparent; */
+}
+
+.fundo-azul {
+    color: white;
+    background-color: blue;
+}
