@@ -1,0 +1,18 @@
+#titulo {
+    color: red;
+    font-size: 50px;
+}
+
+a {
+    font-size: 30px;
+    color: green;
+}
+
+img {
+    width: 200px;
+}
+
+.texto {
+    font-weight: bold;
+    color: indigo;
+}
