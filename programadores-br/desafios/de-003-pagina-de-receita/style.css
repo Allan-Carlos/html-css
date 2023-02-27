@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.barra-topo {
+    background-color: #ff6b28;
+    padding: 15px;
+    text-align: center;
+}
+
+#cabecalho {
+    background: url('images/hero_bolo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.conteudo {
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 40px;
+    max-width: 990px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #ff6b28;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
