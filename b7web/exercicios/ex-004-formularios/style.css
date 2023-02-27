@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+h1 {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 1px;
+}
+
+.termos-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.termos-link:hover {
+    color: white;
+    text-decoration: underline;
+    transition: all 0.7s;
+}
+
+label {
+    display: block;
+}
+
+div {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    background-color: rgb(42, 147, 165);
+}
+
+.borda {
+    border: 3px solid rgb(119, 0, 255);
+    border-radius: 10px;
+}
+
+input[type=text] {
+    width: 150px;
+    outline: 0;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(22, 207, 22);
+    transition: all 0.7s;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+#produtos {
+    margin: 1px;
+}
+
+select {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(8, 190, 145);
+    color: white;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+option {
+    background-color: gray;
+}

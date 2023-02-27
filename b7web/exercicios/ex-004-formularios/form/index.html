@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+        hr {
+            margin: 20px 0px 20px 0px;
+        }
+
+        h1 {
+            font-family: 'Tilt Warp', cursive;
+        }
+
+        h3 {
+            font-family: 'Roboto Mono', monospace;
+            margin-bottom: 1px;
+        }
+
+        .input-email {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <h1>Boas vindas!</h1>
+
+    <h3>Faça login</h3>
+        <form action="login.html" method="GET">
+            <input type="text" value="Usuário" name="usuario">
+            <input type="password" name="senha">
+            <input type="submit" value="Login">
+            <input type="reset">
+        </form>
+
+    <h3>Se cadastre</h3>
+        <form action="">
+            <input type="email" value="Email" name="email" class="input-email"> <br>
+            <input type="text" value="Usuário" name="usuario">
+            <input type="password" name="senha">
+            <input type="submit" value="Fazer cadastro">
+            <input type="reset">
+        </form>
+
+<hr>
+
+        <h3>Nossos produtos</h3>
+        <form action="login.html" method="GET">
+            <select name="produtos">
+                <option>Arroz</option>
+                <option>Batata</option>
+                <option>Carne</option>
+                <option>Frango</option>
+                <option>Hambúrguer</option>
+                <option selected>Picanha</option>
+                <option>Bisteca</option>
+            </select>
+        </form>
+
+<hr>
+
+        <h3>Diga o que acha de nós =)</h3>
+            <form action="login.html" method="GET">
+                <textarea name="avaliacao" cols="30" rows="10"></textarea> <br>
+                <input type="submit">
+                <button>Ou clica aqui</button>
+            </form>
+            
+<hr>
+
+        <h3>Termos de uso</h3>
+            <label>
+                <input type="checkbox">
+                Eu declaro que li e aceito os termos de uso.
+            </label>
+</body>
+
+</html>

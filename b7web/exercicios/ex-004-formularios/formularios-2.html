@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários com CSS</title>
+</head>
+<body>
+    
+    <h1>Formulários estilizados</h1>
+
+    <div class="borda">
+        <h2>Área de cadastro</h2>
+        <form action="form/login.html" method="get">
+            <input type="text">
+            <input type="password">
+            <input type="submit">
+
+            <label>
+                <input type="checkbox">
+                Eu declaro que li e aceito os <a href="#" class="termos-link">termos de uso.</a>
+            </label>
+        </form>
+    </div>
+
+    <div class="borda">
+        <h2>Fazer login</h2>
+        <form action="form/login.html" method="get">
+            <input type="text">
+            <input type="password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <div class="borda">
+        <h2>Área de sugestões</h2>
+            <textarea name="sugestoes"></textarea>
+    </div>
+
+    <div class="borda">
+        <h2 id="produtos">Produtos</h2>
+        <form action="form/login.html"  method="get">
+            <select name="produtos">
+                <option value="selecione">Selecione aqui</option>
+                <option value="item 1">Item 1</option>
+                <option value="item 2">Item 2</option>
+                <option value="item 3">Item 3</option>
+                <option value="item 4">Item 4</option>
+                <option value="item 5">Item 5</option>
+                <option value="item 6">Item 6</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
