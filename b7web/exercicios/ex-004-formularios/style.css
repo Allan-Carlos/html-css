@@ -12,6 +12,22 @@ h2 {
     margin-bottom: 1px;
 }
 
+.links {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    transition: all 0.7s;
+    text-decoration: underline;
+    color: greenyellow;
+}
+
 .termos-link {
     color: black;
     text-decoration: none;

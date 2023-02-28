@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type hidden</title>
+
+    <style>
+        label {
+            display: block;
+        }
+
+        input {
+            margin: 3px;
+        }
+
+        fieldset {
+            margin: 20px 5px;
+            background-color: #eee;
+            border: 2px solid rgb(151, 30, 231);
+            text-align: center;
+            width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        legend {
+            padding: 3px;
+            background-color: rgb(151, 30, 231);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        .idade {
+            margin-left: -40px;
+        }
+
+        .data {
+            margin-left: -60px;
+        }
+
+        .email {
+            margin-left: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form method="get" action="seila.php">
+        <input type="hidden" name="country" value="BR">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+                <label>
+                    Primeiro nome: 
+                    <input type="text" name="name" required minlength="2">
+                </label>
+
+                <label>
+                    Segundo nome:
+                    <input type="text" name="lastname" minlength="2">
+                </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+                <label>
+                    Nome da empresa:
+                    <input type="text" name="companyname" required>
+                </label>
+
+                <label>
+                    Cargo na empresa:
+                    <input type="text" name="companyjobtitle">
+                </label>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Cadastre-se">
+            <input type="reset" value="Resetar">
+        </div>
+    </form>
+
+</body>
+
+</html>
