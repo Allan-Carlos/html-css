@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.pixel {
+    width: 300px;
+    height: 300px;
+}
+
+.pontos {
+    width: 225pt;
+    height: 225pt;
+}
+
+.polegadas {
+    width: 3.120in;
+    height: 3.120in;
+}
+
+.centimetros {
+    width: 7.900cm;
+    height: 7.900cm;
+}
+
+.milimetros {
+    width: 79mm;
+    height: 79mm;
+}
