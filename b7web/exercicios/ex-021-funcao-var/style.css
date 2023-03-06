@@ -1,0 +1,20 @@
+:root {
+    --bg-color: black;
+    --bg-second-color: gray;
+    /* --font-color: white; */
+    --font-general: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--font-color, white);
+    font-family: var(--font-general);
+}
+
+.container {
+    background-color: var(--bg-second-color);
+    color: var(--font-color, white);
+}

@@ -1,0 +1,20 @@
+body {
+    /* background-image: url("images/img-2.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    background-color: magenta;
+}
+
+/* 
+    fill
+    contain
+    cover
+    none
+    scale-down
+*/

@@ -1,0 +1,61 @@
+body {
+    background-color: magenta;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table, td {
+    border: 2px solid black;
+    width: 99vw;
+}
+
+@media only screen {
+    body {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    table, td {
+        border: 0;
+    }
+}
+
+/* @media only print {
+    body {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    table, td {
+        border: 0;
+    }
+} */
+
+/* @media (min-width: 770px) and (max-width: 1050px) {
+    body{
+        background-color: purple;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 770px) {
+    body{
+        background-color: cornflowerblue;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 440px) and  (max-width: 570px) {
+    body{
+        background-color: rosybrown;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 440px) {
+    body{
+        background-color: burlywood;
+        font-size: 14px;
+    }
+} */

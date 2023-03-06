@@ -1,0 +1,11 @@
+@media (aspect-ratio: 1/1) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-aspect-ratio: 2/1) {
+    body {
+        background-color: blue;
+    }
+}
