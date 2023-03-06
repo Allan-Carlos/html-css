@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.padrao {
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}
+
+.vh {
+    height: 100vh;
+    width: 100vw;
+}

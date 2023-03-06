@@ -16,7 +16,7 @@ div {
     font-size: 15px;
 }
 
-.container {
+.padrao {
     margin: 10px;
     background-color: gray;
     text-align: center;
@@ -39,16 +39,17 @@ div {
 }
 
 .porcentagem {
-    width: 3.120in;
-    height: 3.120in;
+    width: 16%;
+    height: 300px;
 }
 
 .ex {
-    width: 7.900cm;
-    height: 7.900cm;
+    width: 47ex;
+    height: 45ex;
 }
 
 .ch {
-    width: 79mm;
-    height: 79mm;
+    font-family: Courier, monospace;
+    width: 36ch;
+    height: 33ch;
 }

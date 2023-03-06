@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.bloco {
+    color: rgb(20, 100, 220);
+}
+
+.container {
+    font-size: 20px;
+    color: inherit;
+}
+
+h1 {
+    font-size: 30px;
+    color: red;
+}
+
+.container h1 {
+    font-size: inherit;
+    color: inherit;
+}
