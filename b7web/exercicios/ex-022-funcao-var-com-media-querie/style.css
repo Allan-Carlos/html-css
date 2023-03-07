@@ -1,0 +1,27 @@
+:root {
+    --bg-second-color: gray;
+    --font-color: white;
+    --font-general: Arial, Helvetica, sans-serif;
+    --font-size: 25px;
+    /* --font-size-small: 15px; */
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-general);
+}
+
+.container {
+    background-color: var(--bg-second-color);
+    color: var(--font-color);
+}
+
+@media (max-width: 450px) {
+    /* body {
+        font-size: var(--font-size-small);
+    } */
+
+    :root {
+        --font-size: 15px;
+    }
+}

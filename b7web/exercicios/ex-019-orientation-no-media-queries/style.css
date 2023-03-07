@@ -9,7 +9,7 @@ div {
     margin: 10px;
 }
 
-@media (orientation: landAspect-ratioscape) {
+@media (orientation: landscape) {
     body {
         flex-direction: row;
     }
