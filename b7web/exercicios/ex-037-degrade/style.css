@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.degrade {
+    width: 100vw;
+    height: 100vh;
+    background: red;
+    background: linear-gradient( green, yellow, blue);
+
+    /* Proteções que voce deve utilizar no seu código */
+    background: -moz-linear-gradient(); /* Para versões antigas do Mozila */
+    background: -o-linear-gradient(); /* Para versões antigas do Opera */
+    background: -webkit-linear-gradient(); /* Para versões antigas do Safari */
+}

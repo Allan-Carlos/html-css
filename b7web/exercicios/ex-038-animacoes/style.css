@@ -1,0 +1,30 @@
+@keyframes cores {
+    0% { background-color: blue;}
+    25% { background-color: blueviolet;}
+    50% { background-color: purple;}
+    75% {background-color: magenta;}
+    100% { background-color: blue;}
+}
+
+@keyframes movimento {
+    0% { top: 10px; left: 10px;}
+    25% { top: 10px; left: 91vw;}
+    50% { top: 83vh; left: 91vw;}
+    75% { top: 83vh; left: 10px;}
+    100% { top: 10px; left: 10px;}
+}
+
+body {
+    margin: 12;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    animation: cores 10s, movimento 10s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+}
+

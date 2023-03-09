@@ -1,0 +1,7 @@
+.exemplo {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    /* overflow: auto; */
+}

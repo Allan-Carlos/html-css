@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.padrao {
+    display: inline-block;
+    background-color: gray;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bola {
+    margin-left: calc(93% - 90px);
+    background-color: gray;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.quadrado {
+    background-color: gray;
+    margin: 10px 0px 0px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 20px;
+}
+
+input {
+    display: block;
+    margin-top: 50px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
