@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: gray;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: flex-start; /* Alinhamento vertical */
+}
+
+.container div {
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* .div10 {
+    order: -1;
+    align-self: flex-end;
+}
+
+.div13 {
+    order: -2;
+} */

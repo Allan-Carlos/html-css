@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #555;
+    min-height: 100px;
+}
+
+.container {
+    display: flex;
+    min-height: 1000px;
+}
+
+aside {
+    width: 250px;
+    background-color: #888;
+}
+
+section {
+    flex: 1;
+    min-height: 1000px;
+    background-color: #999;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #555;
+}
+
+address {
+    text-align: center;color: white;
+}

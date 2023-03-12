@@ -24,7 +24,7 @@ body {
     background-color: blue;
     position: absolute;
     animation: cores 10s, movimento 10s;
-    /* animation-delay: 2s; */
+    animation-delay: 5s;
     animation-iteration-count: infinite;
 }
 
